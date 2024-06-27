@@ -9,8 +9,8 @@ int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
 
     /*
-       Faça um programa que leia três valores e apresente o maior dos três valores lidos 
-       seguido da mensagem ?eh o maior?.
+       FaÃ§a um programa que leia trÃªs valores e apresente o maior dos trÃªs valores lidos 
+       seguido da mensagem "eh o maior".
     */
 
    int a, b, c;
