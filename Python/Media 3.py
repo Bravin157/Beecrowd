@@ -9,9 +9,10 @@ if calculoMedia >= 7.0:
 elif calculoMedia < 5.0:
     print("Aluno reprovado.")
 elif calculoMedia >= 5.0 and calculoMedia <= 6.9:
-    print("Aluno em exame.")
-    n5 = float(input("Nota do exame: "))
+    n5 = float(input())
     calculoMedia1 = (n5 + calculoMedia) / 2
+    print("Aluno em exame.")
+    print("Nota do exame:", n5)
     if calculoMedia1 >= 5.0:
         print("Aluno aprovado.\nMedia final:", calculoMedia1)
     elif calculoMedia1 <= 4.9:
